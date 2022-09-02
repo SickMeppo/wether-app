@@ -9,3 +9,8 @@
     $ yarn start
     ```
 
+
+## Стек продукта
+- [react](https://reactjs.org/)
+- [@emotion](https://github.com/emotion-js/emotion/tree/main )
+- [mui-react](https://github.com/mui/material-ui)
