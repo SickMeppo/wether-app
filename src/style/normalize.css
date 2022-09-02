@@ -1,0 +1,135 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  overflow: hidden;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--uiKit-color-neutral-100);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+}
+
+button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s linear;
+}
+
+a {
+  color: var(--uiKit-color-absolute-black);
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+
+a > * {
+  transition: all 0.3s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+figure,
+pre {
+  margin: 0;
+}
+
+input {
+  padding: 0;
+  border: none;
+  margin: 0;
+  appearance: none;
+  outline: none;
+  transition: all 0.3s linear;
+}
+
+textarea {
+  overflow: auto;
+  padding: 0;
+  border: none;
+  margin: 0;
+  box-shadow: none;
+  outline: none;
+  resize: none;
+  transition: all 0.3s linear;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+svg {
+  overflow: visible;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+.uiKit-scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+
+.uiKit-scroll::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.uiKit-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.uiKit-scroll:hover {
+  scrollbar-color: var(--uiKit-color-neutral-350) transparent;
+}
+
+.uiKit-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: var(--uiKit-color-neutral-350);
+}
+
+.uiKit-scroll::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
